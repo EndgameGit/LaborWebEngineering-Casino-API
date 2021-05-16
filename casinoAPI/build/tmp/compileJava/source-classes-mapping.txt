@@ -1,2 +1,0 @@
-de/dhbw/casinoapi/CasinoApiApplication.java
- de.dhbw.casinoapi.CasinoApiApplication
