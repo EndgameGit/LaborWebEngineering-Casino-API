@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    <script>
+        var arr = [{"id": 2,"spielName": "TIM20","spielerAnzahl": 0,"minAlter": 18,"inBetrieb": false,"maxEinsatz": 0}];
+
+        function printItems(){
+            var container = document.getElementById("container");
+            for (var i=0; arr.length;i++){
+                var obj = arr[i];
+                var str = obj.id + " " + obj.spielName + " " + obj.spielerAnzahl + " " + obj.minAlter + " " + obj.inBetrieb + " " + obj.maxEinsatz + "<br/>";
+                container.innerHTML += str;
+            }
+        }
+        printItems();
+    </script>
+</head>
+<body onload="printItems()">
+    <div id="container">
+
+    </div>
+</body>
+</html>
